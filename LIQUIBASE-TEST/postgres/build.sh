@@ -1,0 +1,1 @@
+docker build -t sarema-liquibase-postgres:v1.00.0  .

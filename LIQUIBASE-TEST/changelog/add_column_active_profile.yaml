@@ -1,0 +1,12 @@
+databaseChangeLog: 
+
+- changeSet:
+    id: 20210211-02
+    author: sarema
+    changes:
+        - addColumn:
+            tableName: PROFILE
+            columns:
+                - column:
+                    name: active
+                    type: BOOLEAN

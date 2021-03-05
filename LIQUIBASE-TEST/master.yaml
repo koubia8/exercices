@@ -1,0 +1,8 @@
+databaseChangeLog: 
+
+    - include:
+        file: changelog/create_table_profile.yaml
+    - include:
+        file: changelog/add_column_active_profile.yaml
+    - include:
+        file: changelog/load_data_to_profile.yaml
